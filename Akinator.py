@@ -31,7 +31,7 @@ else:
     if x % 10 == 1:
         print(" попытка")
     else:
-        if x % 10 >= 2 and x % 10 <= 4:
+        if 2 <= x % 10 <= 4:
             print(" попытки") 
         else:
             print(" попыток")
