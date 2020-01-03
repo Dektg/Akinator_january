@@ -1,7 +1,7 @@
 import random as rand
 import time
 
-print("Добрый день, сер.")
+print("Добрый день, сэр.")
 time.sleep(1)
 print("Я загадал число от 100 до 1.\nПопробуй отгадать!")
 
@@ -25,7 +25,7 @@ while namber != guess:
 
 print("Ты угадал!\nЗа: ", Guess_Of_namber, end ='')
 x = Guess_Of_namber + 1
-if x >= 11 and x <= 19:
+if 11 <= x <= 19:
     print(" попыток")
 else:
     if x % 10 == 1:
