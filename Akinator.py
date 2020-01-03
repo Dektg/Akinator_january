@@ -23,4 +23,15 @@ while namber != guess:
         guess = int(guess)
         Guess_Of_namber += 1
 
-print("Ты угадал!\nЗа: ", Guess_Of_namber, " попыток.")
+print("Ты угадал!\nЗа: ", Guess_Of_namber, end ='')
+x = Guess_Of_namber + 1
+if x >= 11 and x <= 19:
+    print(" попыток")
+else:
+    if x % 10 == 1:
+        print(" попытка")
+    else:
+        if x % 10 >= 2 and x % 10 <= 4:
+            print(" попытки") 
+        else:
+            print(" попыток")
