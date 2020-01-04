@@ -8,7 +8,7 @@ print("Я загадал число от 100 до 1.\nПопробуй отга�
 namber = rand.randint(1, 101)
 guess = input()
 guess = int(guess)
-Guess_Of_namber: int = 0
+Guess_Of_namber = 0
 
 while namber != guess:
     if guess > namber:
@@ -32,6 +32,6 @@ else:
         print(" попытка")
     else:
         if 2 <= x % 10 <= 4:
-            print(" попытки") 
+            print(" попытки")
         else:
             print(" попыток")
